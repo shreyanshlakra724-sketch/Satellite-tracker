@@ -63,6 +63,3 @@ try:
 except KeyboardInterrupt:
     print("\nTracking stopped.")
     exit()
-
-
-
