@@ -49,7 +49,7 @@ try:
         velocity[2]**2
 )       #the velocity that we are retrieving from the satellite is a vector quantity hence, we find it's magnitude.
 
-        actual_velocity_kmh = actual_velocity_ms * 3.6 
+        actual_velocity_kmh = actual_velocity_ms * 3600
 
         print(f'Tracking satellite: {found.name} (NORAD ID: {found.model.satnum})')
         print(f"Latitude: {subpoint.latitude.degrees:.6f}°")
